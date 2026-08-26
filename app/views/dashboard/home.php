@@ -81,7 +81,7 @@ switch($modulo){
 
 ?>
 
-<h1>Bienvenido, <?php echo $_SESSION["nombre"]; ?> 👋</h1>
+<h1>Bienvenido, <?php echo htmlspecialchars($_SESSION["nombre"]); ?> 👋</h1>
 
 <p>Panel principal de IncluKids.</p>
 
